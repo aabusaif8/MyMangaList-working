@@ -1,0 +1,52 @@
+/* Style for the manga list container */
+.manga-list-container {
+  text-align: center; /* Center-align the content */
+}
+
+/* Style for the manga item */
+.manga-item {
+  margin-bottom: 20px; /* Add some spacing between manga items */
+  padding: 10px; /* Add padding to the manga item */
+  border: 1px solid #ccc; /* Add a border to the manga item */
+  border-radius: 5px; /* Add border radius to round the corners */
+  text-align: center;
+}
+
+/* Style for the field names */
+.field-name {
+  font-weight: bold; /* Make the field names bold */
+}
+
+/* Style for the comments container */
+/* Style for the comments container */
+.comments-container {
+  margin-top: 20px; /* Add top margin to separate comments from manga information */
+  align-items: center;
+}
+
+/* Style for each individual comment */
+/* Style for each individual comment */
+.comment-item {
+  width: 20%; /* Set the width of the comment box */
+  margin: 0 auto; /* Center the comment box horizontally */
+  padding: 10px; /* Add padding to the comment box */
+  border: 7px solid #090757; /* Add a light border around each comment */
+  border-radius: 5px; /* Add border radius to round the corners */
+  text-align: center; /* Center-align the text content within the comment box */
+}
+
+/* Style for the reviewer name */
+.reviewer-name {
+  font-weight: bold; /* Make the reviewer name bold */
+  color: #333; /* Set text color for reviewer name */
+}
+
+/* Style for the rating */
+.rating {
+  font-weight: bold; /* Make the reviewer name bold */
+}
+
+/* Style for the review text */
+.review-text {
+  font-weight: bold; /* Make the reviewer name bold */
+}

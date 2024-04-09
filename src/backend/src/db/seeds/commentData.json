@@ -1,0 +1,6 @@
+[
+    {"comment_id": 1,"rating": 10,"review": "This manga is amazing!","reviewer_name": "Reviewer_1","manga_id": 1},
+    {"comment_id": 2,"rating": 10,"review": "Enjoyed reading this manga.","reviewer_name": "reviewer_2","manga_id": 2},
+    {"comment_id": 3, "rating": 10,"review": "Highly recommend!","reviewer_name": "Reviewer_3","manga_id": 3},
+    {"comment_id": 4,"rating": 10,"review": "A true masterpiece!","reviewer_name": "reviewer 4","manga_id": 4}
+]
