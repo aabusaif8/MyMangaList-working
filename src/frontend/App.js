@@ -1,22 +1,20 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
-import Layout from "./Layout";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
-
-/**
- * Defines the root application component.
- * @returns {JSX.Element}
- */
+import CreateReview from "./components/CreateReview";
+import AllManga from "./components/AllManga";
+import Search from "./components/Search";
+import Layout from"./Layout"
 function App() {
   return (
-    <Switch>
-      <Route path="/">
-        <Layout />
-        <Route path ="/dashboard">
-        <Dashboard/>
-      </Route>
-      </Route>
-    </Switch>
+    <Router>
+      <Switch>
+        <Route path="/createReview" component={CreateReview} />
+        <Route path="/allManga" component={AllManga} />
+        <Route path="/search" component={Search} />
+        <Route path="/" component={Layout} />
+      </Switch>
+    </Router>
   );
 }
 

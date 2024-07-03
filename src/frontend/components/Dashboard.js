@@ -1,8 +1,7 @@
-// Dashboard.js
-
 import React from "react";
 import { Link } from "react-router-dom";
 import ListManga from "./ListManga";
+
 function Dashboard() {
   return (
     <div className="dashboard-container">
